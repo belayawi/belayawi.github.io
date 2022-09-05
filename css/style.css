@@ -1,0 +1,30 @@
+.profile{
+    border-radius: 50%;
+}
+#header{
+    background-image: url("/images/wp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+body
+{
+    background-color:lightyellow;
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+.w3logo
+{
+    float: right;
+    margin: 20px;
+}
+footer{
+    background-color:azure;
+    margin:30px;
+    padding:10px;
+}
