@@ -1,0 +1,96 @@
+.rancid{
+    width: 100%;
+    margin:auto;
+}
+#home{
+ clear: both;
+ top: 20px;;
+    top:0px;
+    text-decoration: none;  
+    color:black;
+    font-size: 34px;
+}
+.main{
+    position: relative;
+    margin: auto;
+}
+.menu-container{
+   
+    /* To do about the border of the entire container   */
+}
+body{
+    background-image: url("../images/background.png");
+}
+.container{
+    border:5px solid gray;
+}
+.header-message{
+    text-align: center;
+}
+.overview{
+    position:relative;
+    left:1200px;
+    width:300px;
+}
+#container-right{
+    position: relative;
+    width:1010px;
+    height: 100px;
+    top:-1135px;
+    left: 190px;
+   background-color: #2d4421;
+}
+.rotten-image{
+    height: 100px;
+    width: 100px;
+   
+}
+.thirtythree{
+    color:red;
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin: 4px;
+   
+}
+.content{
+   
+    width: 500px;
+  
+    font-size: 14px;
+    top: -100px;
+    display: inline-block;
+     
+}
+.content-paragraph{
+    border: 3px solid rgb(128, 121, 121);
+    border-radius: 25px;
+    margin:10px;
+    padding: 10px;
+    font-size: 20px;
+}
+ .content:nth-child(even){
+    float: right;
+     left: -200px;; 
+}
+
+.paragraph-container{
+    position: relative;
+    width:1000px;
+   
+    top:-1135px;
+    left: 180px;
+}
+dl{
+    position:relative;
+    left:1200px;
+    border:3px solid grey ;
+    width:300px;
+    background-color: rgb(106, 165, 106);
+    margin-top: -10px;
+} 
+.footer{
+    float:right;
+    position: absolute;
+    right: -700px;
+}

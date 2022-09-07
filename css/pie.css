@@ -1,0 +1,26 @@
+
+body{
+    margin-left: 25px;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    color: olive;
+    background-color: darkgray;
+    height: 50px;
+    padding: auto;
+    margin: 5px;
+}
+h2{
+    color:olive;
+}
+.comment{
+    background-color: yellow;
+}
+#home{
+  float: right;
+  font-size: 30px;
+  color: olive;
+  padding-right: 40px;
+  text-decoration: none;
+}

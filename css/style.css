@@ -7,6 +7,27 @@
     background-size: cover;
     padding: 40px;
 }
+.menu-header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    bottom: 320px;
+    right:100px;
+    position:relative
+}
+.menu-header  li {
+    float: left;
+}
+.menu-header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
 body
 {
     background-color:lightyellow;

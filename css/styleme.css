@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.767);
+    color:white;
+    font-size: 28px;;
+}
+header{
+    font-size: 40px;
+    color:rgb(8, 187, 187);
+}
+.heading-2{
+    color:rgb(8, 187, 187);
+   
+}
+#home{
+    position: relative;
+    float:left;
+    left: 1400px;
+    top:-120px;
+    text-decoration: none;  
+    color:white;
+    font-size: 34px;
+}
+
+.favor{
+    color:orange;
+}
+.moods{
+    margin:50px;
+    border-radius: 10px;
+    padding:10px;
+}
+.happy , .sad{
+   position: relative;
+   left: 120px;
+}
+a{
+    color: red;
+}
+dt{
+    color:orange;
+}
