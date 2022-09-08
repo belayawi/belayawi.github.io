@@ -1,0 +1,50 @@
+
+body, html{
+    height: 100vh;
+}
+
+.custom-header{
+
+  background-color: #add8e6;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.custom-menu{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    flex-direction: row;
+    background-color: #144042;
+    color: white;
+    padding-right: 20px;
+    height: 6%;
+    padding-top: 10px;
+}
+.col1{
+    background-color: gray;
+}
+.col2{
+    background-color: lightGray;
+}
+.col3{
+    background-color: #f5fffa;
+}
+.custom-footer{
+    background-color: #144042;
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    padding-top: 25px;
+    
+}
+.custom-column{
+    background-color: lightGray;
+    height: 50%;
+
+}
+.mycontainer{
+    height: 100%; 
+    width: auto;   
+}
