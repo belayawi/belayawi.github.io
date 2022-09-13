@@ -1,0 +1,150 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    background: rgb(39, 164, 247);
+    color: white;
+    padding: 30px;
+    height: 40px;
+}
+
+#title {
+    font-size: 25px;
+    margin-top: 7px;
+    font-weight:400;
+}
+
+.nav-links {
+    text-decoration: none;
+    margin-top: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.nav-div {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -7px;
+    font-size: 40px;
+    font-weight:100;
+}
+
+.greet-message {
+    position:absolute;
+    margin-top: 7px;
+    margin-left: 82%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sign-out {
+    position:absolute;
+    margin-top: -7px;
+    margin-left: 86%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    padding: 13px;
+    color: black;
+    border-radius: 5px;
+}
+
+.container {
+    display: grid;
+    height: 75vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 02.fr 3fr;
+    grid-template-areas: 
+    "header header"
+    "left-row right-row";
+    width: 80vw;
+    margin: auto;
+}
+
+.right-row {
+    grid-area: right-row;
+    margin-top: -150px;
+}
+
+.left-row {
+    grid-area: left-row;
+    margin-top: -150px;
+    margin-left: 30px;
+}
+
+.header {
+    grid-area: header;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+label {
+    font-size: 25px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form-group {
+    margin: 25px;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 25px;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 7px;
+}
+
+select {
+    width: 95%;
+    height: 60px;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 7px;
+}
+
+p {
+    margin-top: 7px;
+    color: rgb(100, 100, 100);
+}
+
+.buttons {
+    margin-left: 35%;
+}
+
+.btn-reset {
+    background: transparent;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid rgb(1, 66, 139);
+    margin-right: 15px;
+    border-radius: 7px;
+}
+
+.btn-cancel {
+    background: transparent;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid rgb(255, 0, 76);
+    margin-right: 15px;
+    border-radius: 7px;
+}
+
+.btn-add {
+    background: transparent;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 153, 255);
+    margin-right: 15px;
+    border-radius: 7px;
+}
