@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 'labels container';
+  flex-direction: column;
+}
+.labels {
+  grid-area: labels;
+  flex-direction: colum;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  flex-wrap: wrap;
+  color: white;
+  gap: 20px;
+
+
+  background-color: cadetblue;
+}
+.btn {
+  font-size: 30px;
+  padding: 10px;
+
+  background-color: darkgoldenrod;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.numbers {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.labels input[type='number'] {
+  font-size: 28px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: chocolate;
+}
+.labels > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  grid-area: container;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .container > #circle {
+  background-color: brown;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+} */
