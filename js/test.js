@@ -41,8 +41,6 @@ describe('Account Number Creation Test', function(){
         assert.equal(account.toString().charAt(0),"A");
     })
 
-   
-
 });
 describe("Saving Account Number Creation", function(){
     it('Creates Saving Account number with number 102 ', function(){
@@ -90,8 +88,5 @@ describe("Bank Accounts Creation Test", function(){
     it("Open A checking account at bank with a number 105 ", function(){
         assert.equal(bankAccount.addCheckingAccount(15).getNumber(), 101);
 
-    });
-    it('Represents the Saving account number', function(){
-        assert.equal(checkingAccount.toString().charAt(0),"C");
     });
 });
