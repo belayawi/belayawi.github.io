@@ -20,12 +20,9 @@ Array.prototype.bubbleSort = function () {
   return this;
 };
 
-let array = [6, 4, 0, 3, -2, 1];
-console.log(array.bubbleSort());
 
-let sentences = 'This is not what I am supposed to do';
-// let us filter the word 'not'
-console.log(sentences.filter('not'));
+
+
 
 var Person = function () {};
 Person.prototype.initialize = function (name, age) {
@@ -54,6 +51,3 @@ Teacher.prototype.teach = function(subject){
     console.log(this.name + ' is now teaching ' + subject);
 }
 
-let john = new Teacher();
-john.initialize('John Doe',36)
-john.teach('Software Architecture');
